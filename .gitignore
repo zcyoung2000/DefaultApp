@@ -1,0 +1,18 @@
+# Build output
+.build/
+build/
+dist/
+
+# macOS
+.DS_Store
+*.swp
+*~
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+
+# Packaging
+*.dmg
+*.zip

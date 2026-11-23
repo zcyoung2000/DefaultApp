@@ -1,0 +1,30 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E8EEF9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1024" height="1024" rx="228" fill="url(#bg)"/>
+
+  <!-- 文档 -->
+  <g transform="translate(300 214)">
+    <path d="M0 44 L0 552 Q0 574 22 574 L324 574 Q346 574 346 552 L346 128 L250 0 L22 0 Q0 0 0 44 Z"
+          fill="url(#paper)"/>
+    <path d="M250 0 L250 106 Q250 128 272 128 L346 128 Z" fill="#C7D6EE"/>
+    <g stroke="#8FA8CC" stroke-width="18" stroke-linecap="round">
+      <line x1="62" y1="212" x2="284" y2="212"/>
+      <line x1="62" y1="290" x2="284" y2="290"/>
+      <line x1="62" y1="368" x2="220" y2="368"/>
+    </g>
+  </g>
+
+  <!-- 指针 -->
+  <path d="M604 476 L604 812 L694 730 L754 866 L818 838 L760 706 L872 706 Z"
+        fill="#1E293B" stroke="#FFFFFF" stroke-width="26" stroke-linejoin="round"/>
+</svg>
