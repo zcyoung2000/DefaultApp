@@ -36,7 +36,7 @@ brew install duti
 需要 Xcode 26+ 和 macOS 26+。
 
 ```bash
-git clone https://github.com/desperadoxhy/DefaultApp.git
+git clone https://github.com/zcyoung2000/DefaultApp.git
 cd DefaultApp
 ./scripts/build.sh
 open "build/Default App.app"
